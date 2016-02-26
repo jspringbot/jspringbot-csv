@@ -89,13 +89,6 @@
         <role>developer</role>
       </roles>
     </developer>
-    <developer>
-      <id>developer</id>
-      <email>siegcollado@gmail.com</email>
-      <roles>
-        <role>developer</role>
-      </roles>
-    </developer>
   </developers>
 
   <dependencies>
