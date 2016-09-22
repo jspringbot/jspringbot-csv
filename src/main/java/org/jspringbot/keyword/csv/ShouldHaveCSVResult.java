@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Should Have CSV Result", description = "Fails if no results was found for the current criteria.")
+@KeywordInfo(name = "Should Have CSV Result",
+        description = "classpath:desc/ShouldHaveCSVResult.txt")
 public class ShouldHaveCSVResult extends AbstractCSVKeyword {
 
     @Override

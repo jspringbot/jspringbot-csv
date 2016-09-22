@@ -24,7 +24,8 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Set First CSV Row As Headers", description = "Set first CSV row as the headers.")
+@KeywordInfo(name = "Set First CSV Row As Headers",
+        description = "classpath:desc/SetFirstCSVRowAsHeaders.txt")
 public class SetFirstCSVRowAsHeaders extends AbstractCSVKeyword {
 
     @Override

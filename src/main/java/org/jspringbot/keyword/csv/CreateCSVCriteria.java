@@ -24,7 +24,8 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Create CSV Criteria", description = "Creates a new csv criteria, will override the existing criteria if there is one.")
+@KeywordInfo(name = "Create CSV Criteria",
+        description = "classpath:desc/CreateCSVCriteria.txt")
 public class CreateCSVCriteria extends AbstractCSVKeyword {
 
     @Override

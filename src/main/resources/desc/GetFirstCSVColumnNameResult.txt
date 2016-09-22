@@ -1,0 +1,1 @@
+Returns the first result column value of the current criteria query.

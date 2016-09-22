@@ -1,0 +1,1 @@
+Returns the column value list for the current criteria query.

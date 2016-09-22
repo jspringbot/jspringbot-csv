@@ -22,7 +22,9 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Create List Result As CSV State", description = "Make the current csv list result as the new state csv.", parameters = {"name"})
+@KeywordInfo(name = "Create List Result As CSV State",
+        parameters = {"name"},
+        description = "classpath:desc/CreateListResultAsCSVState.txt")
 public class CreateListResultAsCSVState extends AbstractCSVKeyword {
 
     @Override

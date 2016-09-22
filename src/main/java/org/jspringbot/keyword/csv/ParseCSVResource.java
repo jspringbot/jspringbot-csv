@@ -22,7 +22,9 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Parse CSV Resource", description = "Parse the given CSV resource.", parameters = {"csvResourcePath"})
+@KeywordInfo(name = "Parse CSV Resource",
+        parameters = {"csvResourcePath"},
+        description = "classpath:desc/ParseCSVResource.txt")
 public class ParseCSVResource extends AbstractCSVKeyword {
 
     @Override

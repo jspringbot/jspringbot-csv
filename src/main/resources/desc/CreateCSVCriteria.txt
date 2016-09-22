@@ -1,0 +1,1 @@
+Creates a new csv criteria, will override the existing criteria if there is one.

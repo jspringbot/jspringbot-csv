@@ -1,0 +1,66 @@
+Switch csv state given the state name.
+
+Sample Project Structure:
+| <project>
+| -> src
+|    -> test
+|       -> resources
+|          -> csv
+|             -> data.csv
+
+In pom.xml
+|   <plugins>
+|     <plugin>
+|       . . .
+|       <executions>
+|         <execution>
+|         . . .
+|           <configuration>
+|             <variables>
+|               <variable>destDir:${project.build.directory}</variable>
+
+Sample Usage:
+| Parse State CSV Resource     | input                      | classpath:csv/data.csv |
+| Set First CSV Row As Headers |                            |                        |
+| Create CSV Criteria          |                            |                        |
+|                              |                            |                        |
+| Parse State CSV Resource     | output1                    | ${destDir}/ouput1.csv  |
+| Set CSV Headers              | id,message                 |                        |
+|                              |                            |                        |
+| Parse State CSV Resource     | output2                    | ${destDir}/output.csv  |
+| Set CSV Headers              | id,text                    |                        |
+|                              |                            |                        |
+| Switch CSV State             | input                      |                        |
+| ${listResult}=	           | Get CSV List Result        |                        |
+|                              |                            |                        |
+| Switch CSV State             | output1                    |                        |
+| Append CSV Line              | $[csv:asLine('1','hello')] |                        |
+| Append CSV Line              | $[csv:asLine('2','world')] |                        |
+|                              |                            |                        |
+| Switch CSV State             | output2                    |                        |
+| Append CSV Line              | $[csv:asLine('1','foo')]   |                        |
+| Append CSV Line              | $[csv:asLine('2','bar')]   |                        |
+
+Sample Project Structure Result:
+| <project>
+| -> src
+|    -> test
+|       -> resources
+|          -> csv
+|             -> data.csv
+| -> target
+|    -> test-classes
+|       -> csv
+|          -> data.csv
+|          -> output1.csv
+|          -> output2.csv
+
+Sample output1.csv Result:
+id,message
+1,hello
+2,world
+
+Sample output2.csv Result:
+id,text
+1,foo
+2,bar

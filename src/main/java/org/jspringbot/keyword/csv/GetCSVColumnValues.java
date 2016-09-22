@@ -22,7 +22,9 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Get CSV Column Values", description = "Retrieves the column values given the column index.", parameters = { "index" })
+@KeywordInfo(name = "Get CSV Column Values",
+		parameters = { "index" },
+		description = "classpath:desc/GetCSVColumnValues.txt")
 public class GetCSVColumnValues extends AbstractCSVKeyword {
 
 	@Override

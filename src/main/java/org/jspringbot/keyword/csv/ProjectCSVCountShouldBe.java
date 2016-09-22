@@ -22,7 +22,9 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Project CSV Count Should Be", description = "Fails if the projected count of current criteria query does not match the given expected count.", parameters = {"expectedCount"})
+@KeywordInfo(name = "Project CSV Count Should Be",
+        parameters = {"expectedCount"},
+        description = "classpath:desc/ProjectCSVCountShouldBe.txt")
 public class ProjectCSVCountShouldBe extends AbstractCSVKeyword {
 
     @Override

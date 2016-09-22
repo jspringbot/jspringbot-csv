@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Add Column Name Equals CSV Restriction", description = "Add a column name equals restriction.", parameters = {"name", "value"})
+@KeywordInfo(name = "Add Column Name Equals CSV Restriction",
+        parameters = {"name", "value"},
+        description = "classpath:desc/AddColumnNameEqualsCSVRestriction.txt")
 public class AddColumnNameEqualsCSVRestriction extends AbstractCSVKeyword {
 
     @Override

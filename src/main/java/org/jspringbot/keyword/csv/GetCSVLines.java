@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Get CSV Lines", description = "Returns a list of string array of the parsed csv.")
+@KeywordInfo(name = "Get CSV Lines",
+        description = "classpath:desc/GetCSVLines.txt")
 public class GetCSVLines extends AbstractCSVKeyword {
 
     @Override

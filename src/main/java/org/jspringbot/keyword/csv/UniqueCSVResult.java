@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Unique CSV Result", description = "Returns the unique result, which is a string array of the current criteria query.")
+@KeywordInfo(name = "Unique CSV Result",
+        description = "classpath:desc/UniqueCSVResult.txt")
 public class UniqueCSVResult extends AbstractCSVKeyword {
 
     @Override

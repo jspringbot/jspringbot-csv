@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Create CSV State Alias", description = "Create an alias name for the current state.", parameters = {"name"})
+@KeywordInfo(name = "Create CSV State Alias",
+        parameters = {"name"},
+        description = "classpath:desc/CreateCSVStateAlias.txt")
 public class CreateCSVStateAlias extends AbstractCSVKeyword {
 
     @Override

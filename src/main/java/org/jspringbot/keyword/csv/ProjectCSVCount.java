@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Project CSV Count", description = "Returns the projected count of current criteria query.")
+@KeywordInfo(name = "Project CSV Count",
+        description = "classpath:desc/ProjectCSVCount.txt")
 public class ProjectCSVCount extends AbstractCSVKeyword {
 
     @Override

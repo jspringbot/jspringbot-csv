@@ -1,0 +1,6 @@
+Parse the given CSV resource.
+
+| Parse CSV Resource           | classpath:csv/file.csv |
+| Set First CSV Row As Headers |                        |
+| Create CSV Criteria          |
+| ${listResult}=	           | Get CSV List Result    |

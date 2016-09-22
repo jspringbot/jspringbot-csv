@@ -1,0 +1,4 @@
+Set first CSV row as the headers.
+
+| Parse CSV Resource           | classpath:csv/file.csv |
+| Set First CSV Row As Headers |                        | # Recognizes the first row of the csv files as headers.

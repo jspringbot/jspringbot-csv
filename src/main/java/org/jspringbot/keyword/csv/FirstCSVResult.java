@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "First CSV Result", description = "Returns the first result item, which is a string array of the current criteria query.")
+@KeywordInfo(name = "First CSV Result",
+        description = "classpath:desc/FirstCSVResult.txt")
 public class FirstCSVResult extends AbstractCSVKeyword {
 
     @Override

@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Get CSV List Map Result", description = "Returns the list of map name and value of the current criteria query.")
+@KeywordInfo(name = "Get CSV List Map Result",
+        description = "classpath:desc/GetCSVListMapResult.txt")
 public class GetCSVListMapResult extends AbstractCSVKeyword {
 
     @Override

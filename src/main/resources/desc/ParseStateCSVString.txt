@@ -1,0 +1,5 @@
+Parse the given CSV string with the given state name.
+
+| Parse State CSV Resource     | messages | 'id,message\n 1,ok\n 2,cancel' |
+| Set First CSV Row As Headers |          |                                |
+| Create CSV Criteria          |          |                                |

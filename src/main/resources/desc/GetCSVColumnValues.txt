@@ -1,0 +1,1 @@
+Retrieves the column values given the column index.

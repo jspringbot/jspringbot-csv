@@ -1,0 +1,1 @@
+Fails if the projected count of current criteria query does not match the given expected count.

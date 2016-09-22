@@ -22,7 +22,9 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Get First CSV Column Index Result", description = "Returns the first result column value for the current criteria query.", parameters = {"index"})
+@KeywordInfo(name = "Get First CSV Column Index Result",
+        parameters = {"index"},
+        description = "classpath:desc/GetFirstCSVColumnIndexResult.txt")
 public class GetFirstCSVColumnIndexResult extends AbstractCSVKeyword {
 
     @Override

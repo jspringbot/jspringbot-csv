@@ -1,0 +1,1 @@
+Returns the first result item, which is a string array of the current criteria query.

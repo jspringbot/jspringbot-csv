@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Switch CSV State", description = "Switch csv state given the state name.", parameters = {"name"})
+@KeywordInfo(name = "Switch CSV State",
+        parameters = {"name"},
+        description = "classpath:desc/SwitchCSVState.txt")
 public class SwitchCSVState extends AbstractCSVKeyword {
 
     @Override

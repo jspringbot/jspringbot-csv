@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Unique CSV Map Result", description = "Returns the unique result, which is a map name and value of the current criteria query.")
+@KeywordInfo(name = "Unique CSV Map Result",
+        description = "classpath:desc/UniqueCSVMapResult.txt")
 public class UniqueCSVMapResult extends AbstractCSVKeyword {
 
     @Override

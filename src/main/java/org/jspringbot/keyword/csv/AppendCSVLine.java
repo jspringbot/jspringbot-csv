@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Append CSV Line", description = "Appends a csv line.", parameters = {"csvLineString"})
+@KeywordInfo(name = "Append CSV Line",
+        parameters = {"csvLineString"},
+        description = "classpath:desc/AppendCSVLine.txt")
 public class AppendCSVLine extends AbstractCSVKeyword {
 
     @Override

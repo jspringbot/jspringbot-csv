@@ -24,7 +24,8 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Conjunction Start CSV Restriction", description = "The next restrictions added will be as and conjunction restrictions.")
+@KeywordInfo(name = "Conjunction Start CSV Restriction",
+        description = "classpath:desc/ConjunctionStartCSVRestriction.txt")
 public class ConjunctionStartCSVRestriction extends AbstractCSVKeyword {
 
     @Override

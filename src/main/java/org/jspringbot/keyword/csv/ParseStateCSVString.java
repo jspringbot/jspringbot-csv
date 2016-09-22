@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Parse State CSV String", description = "Parse the given CSV string with the given state name.", parameters = {"name", "csvString"})
+@KeywordInfo(name = "Parse State CSV String",
+        parameters = {"name", "csvString"},
+        description = "classpath:desc/ParseStateCSVString.txt")
 public class ParseStateCSVString extends AbstractCSVKeyword {
 
     @Override

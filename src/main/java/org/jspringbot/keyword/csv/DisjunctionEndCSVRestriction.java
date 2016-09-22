@@ -24,7 +24,8 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Disjunction End CSV Restriction", description = "End of disjunction or restriction for the current criteria.")
+@KeywordInfo(name = "Disjunction End CSV Restriction",
+        description = "classpath:desc/DisjunctionEndCSVRestriction.txt")
 public class DisjunctionEndCSVRestriction extends AbstractCSVKeyword {
 
     @Override

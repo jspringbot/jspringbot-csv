@@ -1,0 +1,1 @@
+Fails if no results was found for the current criteria.

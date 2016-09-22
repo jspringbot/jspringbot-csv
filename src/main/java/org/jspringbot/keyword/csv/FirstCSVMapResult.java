@@ -22,7 +22,8 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "First CSV Map Result", description = "Returns the first result item, which is a map name and value of the current criteria query.")
+@KeywordInfo(name = "First CSV Map Result",
+        description = "classpath:desc/FirstCSVMapResult.txt")
 public class FirstCSVMapResult extends AbstractCSVKeyword {
 
     @Override

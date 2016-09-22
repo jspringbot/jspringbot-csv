@@ -1,0 +1,1 @@
+Create an alias name for the current state.

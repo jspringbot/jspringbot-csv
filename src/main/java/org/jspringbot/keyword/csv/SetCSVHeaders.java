@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@KeywordInfo(name = "Set CSV Headers", description = "Sets the csv header.", parameters = {"csvHeaderString"})
+@KeywordInfo(name = "Set CSV Headers",
+        parameters = {"csvHeaderString"},
+        description = "classpath:desc/SetCSVHeaders.txt")
 public class SetCSVHeaders extends AbstractCSVKeyword {
 
     @Override

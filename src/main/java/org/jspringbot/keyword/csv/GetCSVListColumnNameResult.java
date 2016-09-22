@@ -22,7 +22,9 @@ import org.jspringbot.KeywordInfo;
 import org.springframework.stereotype.Component;
 
 @Component
-@KeywordInfo(name = "Get CSV List Column Name Result", description = "Returns the column value list for the current criteria query.", parameters = {"name"})
+@KeywordInfo(name = "Get CSV List Column Name Result",
+        parameters = {"name"},
+        description = "classpath:desc/GetCSVListColumnNameResult.txt")
 public class GetCSVListColumnNameResult extends AbstractCSVKeyword {
 
     @Override

@@ -1,0 +1,1 @@
+Returns the first result item, which is a map name and value of the current criteria query.
