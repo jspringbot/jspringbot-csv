@@ -25,11 +25,11 @@
   <parent>
     <groupId>org.jspringbot</groupId>
     <artifactId>jspringbot-libraries</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
   </parent>
 
   <artifactId>jspringbot-csv</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.6-SNAPSHOT</version>
   <name>jspringbot-csv</name>
 
   <properties>
@@ -61,6 +61,7 @@
     <connection>scm:git:https://github.com/jspringbot/jspringbot-csv.git</connection>
     <url>scm:git:https://github.com/jspringbot/jspringbot-csv.git</url>
     <developerConnection>scm:git:https://github.com/jspringbot/jspringbot-csv.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
   <developers>
